@@ -19,9 +19,10 @@ Este projeto consiste em uma aplicação Java para consulta de endereço a parti
 ## Estrutura do Projeto
 
 - **src/main/java/br/com/projeto/via/cep/**: Contém os arquivos fonte Java.
-  - **exceptions**: Pacote para classes de exceções customizadas.
-  - **model**: Pacote para classes de modelos.
-    - **entities**: Pacote para entidades de dados.
+- **application**: Pacote para classe principal.
+- **model**: Pacote para classes de modelos.
+    - **entities**: Pacote para classes de modelos.
+      - **exceptions**: Pacote para classes de exceções customizadas.
     - **services**: Pacote para classes de serviços.
 - **pom.xml**: Arquivo de configuração do Maven, que gerencia as dependências do projeto.
 
