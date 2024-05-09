@@ -1,7 +1,7 @@
 package br.com.projeto.via.cep.application;
 
-import br.com.projeto.via.cep.model.entities.exceptions.CepInvalidoException;
-import br.com.projeto.via.cep.model.entities.exceptions.ManipuladorException;
+import br.com.projeto.via.cep.model.exceptions.CepInvalidoException;
+import br.com.projeto.via.cep.model.exceptions.ManipuladorException;
 import br.com.projeto.via.cep.model.entities.Endereco;
 import br.com.projeto.via.cep.model.services.ChamadaApi;
 import br.com.projeto.via.cep.model.services.EscritorJson;
