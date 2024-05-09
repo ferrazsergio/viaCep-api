@@ -1,6 +1,6 @@
 package br.com.projeto.via.cep.model.services;
 
-import br.com.projeto.via.cep.exceptions.CepInvalidoException;
+import br.com.projeto.via.cep.model.entities.exceptions.CepInvalidoException;
 
 import java.util.Scanner;
 
